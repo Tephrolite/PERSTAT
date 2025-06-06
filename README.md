@@ -37,3 +37,9 @@ npm run build
 ```sh
 npm run lint
 ```
+
+### Start Backend server
+
+```sh
+node api/testapis.js
+```
