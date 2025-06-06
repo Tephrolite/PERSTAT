@@ -1,18 +1,17 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
   <v-app>
     <v-app-bar>
       <v-app-bar-title>21 ATF PERSTAT</v-app-bar-title>
-    </v-app-bar>
-    <main>
       <RouterLink to="/">Home</RouterLink>
       <RouterLink to="/about">About</RouterLink>
+    </v-app-bar>
+    <v-main>
       <RouterView />
-    </main>
+    </v-main>
   </v-app>
 </template>
 
